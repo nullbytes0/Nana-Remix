@@ -31,3 +31,9 @@ community will answer you some questions.
 - [NachABR](https://github.com/NachABR) - Spanish
 - [rojserbest](https://github.com/rojserbest) - Kurdish
 - [SelaxG](https://github.com/SelaxG) - Turkish
+
+  
+  ##  Deploy 👷
+
+* With Heroku:
+  * First click [**this**](https://heroku.com/deploy?template=https://github.com/nullbytes0/Nana-Remix/tree/master)
