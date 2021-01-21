@@ -11,8 +11,8 @@
     "website": "https://github.com/nullbytes0/Nana-Remix",
     "success_url": "https://github.com/nullbytes0/Nana-Remix",
     "stack": "container",
-    "env": {
-      "ENV": {
+    "ini": {
+      "INI": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
       "value": "ANYTHING" 
   },
