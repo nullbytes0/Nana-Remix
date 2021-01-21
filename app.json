@@ -1,7 +1,6 @@
 {
-  "name": "Gdrive-Mirror-bot-Heroku",
-  "description": "This is a telegram bot writen in python for mirroring files on the internet to our beloved Google Drive.",
-  "logo": "https://telegra.ph/file/55cadc1697ae944a7f432.png",
+  "name": "NANA-REMIX",
+  "description": "This is a telegram bot writen in python",
   "keywords": [
     "telegram",
     "bot",
@@ -12,8 +11,8 @@
     "website": "https://t.me/linux_repo",
     "success_url": "https://t.me/linux_repo",
     "stack": "container",
-    "env": {
-      "ENV": {
+    "ini": {
+      "INI": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
       "value": "ANYTHING" 
       },
