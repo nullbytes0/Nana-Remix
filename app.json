@@ -6,8 +6,7 @@
 "ini":{
   "INI":{
       "description":"Setting this to ANYTHING will enable webhooks when in env mode",
-      "value":"ANYYHING"
-  },
+      "value":"ANYYHING"},
   "api_id":{
       "description":"get your api id from https://my.telegram.org",
       "value":"",},
@@ -39,5 +38,31 @@
   "REPOSITORY":{
       "description":"url of the repository of your fork, leave it on Original Repository if you clone it without forking",
       "value":"",
+      "required":false},
+      "REMINDER_UPDATE":{
+          "description":"Leave it on True if you want to receive updates from github",
+          "value":"",
+          "required":false},
+  "screenshotlayer_API":{
+      "description":"get an api key from ScreenshotLayer",
+      "value":"",
       "required":false
+  },
+  "gdrive_credentials":{
+      "description":"paste in the content inside credentials json you get from google drive api, this is not required as if the bot will guide you how to setup after you host it",
+      "value":"",
+      "required":false
+  },
+  "sw_api":{
+      "description":"spamwatch api key, carefully read SpamWatchAPI",
+      "value":"",
+      "required":false
+  },
+  "lydia_api":{
+      "description":"coffeehouse api key for chatbot, get it now from Intellivoid",
+      "value":"",
+      "required":false
+  },
+  "remove_bg_api":{
+      "description":"Remove Background API key, get it from Remove.bg",
   }
