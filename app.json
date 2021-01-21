@@ -70,7 +70,7 @@
           "value":"",
           "required":false
           
-      },
+  },
   "screenshotlayer_API":{
       "description":"get an api key from ScreenshotLayer",
       "value":"",
