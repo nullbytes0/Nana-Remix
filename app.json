@@ -7,9 +7,9 @@
     "nana",
     "remix"
   ],
-    "repository": "https://github.com/nullbytes0/master-mirror-bot.git",
-    "website": "https://t.me/linux_repo",
-    "success_url": "https://t.me/linux_repo",
+    "repository": "https://github.com/nullbytes0/Nana-Remix.git",
+    "website": "https://github.com/nullbytes0/Nana-Remix",
+    "success_url": "https://github.com/nullbytes0/Nana-Remix",
     "stack": "container",
     "ini": {
       "INI": {
