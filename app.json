@@ -1,5 +1,5 @@
 {
-"name":"nano-remix",
+"name":"nana-remix",
 "description":"This is a telegram bot writen in python",
 "repository":"https://github.com/nullbytes0/Nana-Remix",
 "stack":"container",
@@ -14,5 +14,16 @@
   },
   "api_hash":{
       "description":"get your api hash from https://my.telegram.org",
-      "value":
+      "value":"",
+  },
+  "LOGGER":{
+      "description":"True if you want to log everything that happens in the userbot",
+      "value":"",
+  },
+  "DB_URI":{
+      "description":" the postgresql server url that contains username, host, port, password and database",
+      "value":"",
+  },
+  "lang_code":{
+      
   }
