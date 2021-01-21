@@ -89,21 +89,23 @@
       "value": "",
       "required": false
     },
-    "IS_TEAM_DRIVE": {
-      "description": "(Optional field) Set to True if GDRIVE_FOLDER_ID is from a Team Drive else False or Leave it empty.",
-      "value": "true",
+    "IBM_WATSON_CRED_URL": {
+      "description": "IBM Host URL",
+      "value": "",
       "required": false
     },
-    "INDEX_URL": {
-      "description": "(Optional field) Refer to https://github.com/maple3142/GDIndex/ The URL should not have any trailing '/'",
-      "value": "https://royal-darkness-cc6b.cloud-mirrors-link.workers.dev/",
+    "IBM_WATSON_CRED_PASSWORD": {
+      "description": "IBM Host Password",
+      "value": "",
       "required": false
     },
-    "USE_SERVICE_ACCOUNTS": {
-      "description": "(Optional field) (Leave empty if unsure) Whether to use service accounts or not. For this to work see Using service accounts section below.",
+    "time_country": {
+      "description": "input your timezone from this List",
       "value": "true",
       "required": false
-      }
+      },
+     }
+    
     },
     "addons": [
       {
