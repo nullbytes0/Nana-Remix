@@ -103,7 +103,6 @@
       "description": "input your timezone from this List",
       "value": "true",
       "required": false
-      },
      }
     
     },
