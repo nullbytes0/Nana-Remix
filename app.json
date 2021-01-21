@@ -18,10 +18,13 @@
       },
   "api_id":{
       "description":"get your api id from https://my.telegram.org",
-      "value":"",
+      "value":""
+  },
   "api_hash":{
       "description":"get your api hash from https://my.telegram.org",
-      "value":"",},
+      "value":""
+      
+  },
   "LOGGER":{
       "description":"True if you want to log everything that happens in the userbot",
       "value":"",},
