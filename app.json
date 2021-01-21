@@ -54,7 +54,7 @@
       
   },
   "Command":{
-      "description":" a command prefix(s), you can separate each prefix with a space",
+      "description":"a command prefix(s), you can separate each prefix with a space",
       "value":"",
       "required":false
       
