@@ -1,0 +1,18 @@
+{
+"name":"nano-remix",
+"description":"This is a telegram bot writen in python",
+"repository":"https://github.com/nullbytes0/Nana-Remix",
+"stack":"container",
+"ini":{
+  "INI":{
+      "description":"Setting this to ANYTHING will enable webhooks when in env mode",
+      "value":"ANYYHING"
+  },
+  "api_id":{
+      "description":"get your api id from https://my.telegram.org",
+      "value":"",
+  },
+  "api_hash":{
+      "description":"get your api hash from https://my.telegram.org",
+      "value":
+  }
