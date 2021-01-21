@@ -10,20 +10,34 @@
   },
   "api_id":{
       "description":"get your api id from https://my.telegram.org",
-      "value":"",
-  },
+      "value":"",},
   "api_hash":{
       "description":"get your api hash from https://my.telegram.org",
-      "value":"",
-  },
+      "value":"",},
   "LOGGER":{
       "description":"True if you want to log everything that happens in the userbot",
-      "value":"",
-  },
+      "value":"",},
   "DB_URI":{
       "description":" the postgresql server url that contains username, host, port, password and database",
-      "value":"",
-  },
+      "value":"",},
   "lang_code":{
-      
+      "description":"your client's language code",
+      "value":"",
+      "required":false},
+  "NANA_IMG":{
+      "description":"an image url or file id supported by pyrogram bot",
+      "value":"",
+      "required":false},
+  "AdminSettings":{
+      "description":"Add Sudo user ids here, you can separate each user id with a space",
+      "value":"",
+      "required":false},
+  "Command":{
+      "description":" a command prefix(s), you can separate each prefix with a space",
+      "value":"",
+      "required":false},
+  "REPOSITORY":{
+      "description":"url of the repository of your fork, leave it on Original Repository if you clone it without forking",
+      "value":"",
+      "required":false
   }
