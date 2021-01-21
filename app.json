@@ -65,4 +65,57 @@
   },
   "remove_bg_api":{
       "description":"Remove Background API key, get it from Remove.bg",
-  }
+      "value":"",
+      "required":false
+  },
+  "IBM_WATSON_CRED_URL":{
+      "description":"IBM Host URL",
+      "value":"",
+      "required":false
+  },
+  "IBM_WATSON_CRED_PASSWORD":{
+      "description":"IBM Host Password",
+      "value":"",
+      "required":false
+  },
+  "time_country":{
+      "description":"input your timezone from this List",
+      "value":"",
+      "required":false
+  },
+  "USERBOT_LOAD":{
+      "description":"Fill if you want to load up some modules for your userbot (separate with space)",
+      "value":"",
+      "required":false
+  },
+  "USERBOT_NOLOAD":{
+      "description":"Fill if you want to ignore some modules for your userbot (separate with space)",
+      "value":"",
+      "required":false
+  },
+  "ASSISTANT_LOAD":{
+      "description":"Fill if you want to load up some modules for your ASSISTANT (separate with space)",
+      "value":"",
+      "required":false
+  },
+  "ASSISTANT_NOLOAD":{
+      "description":"Fill if you want to ignore some modules for your ASSISTANT (separate with space)",
+      "value":"",
+      "required":false
+  },
+  "USERBOT_SESSION":{
+      "description":"Generate your session using strNana.py in the repository by running python3 strNana.py",
+      "value":"",
+  },
+  "PM_PERMIT":{
+      "description":"True or Leave the Field if you dont want the PM Gaurd on",
+      "value":"true",
+      "required":false
+      }
+    },
+    "addons": [
+      {
+        "plan": "heroku-postgresql"
+      }
+    ]
+}
