@@ -1,12 +1,6 @@
 {
   "name": "NANA-REMIX",
-  "description": "This is a telegram bot writen in python",
-  "keywords": [
-    "telegram",
-    "bot",
-    "nana",
-    "remix"
-  ],
+  "description": "This is a telegram bot writen in python.",
     "repository": "https://github.com/nullbytes0/Nana-Remix.git",
     "website": "https://github.com/nullbytes0/Nana-Remix",
     "success_url": "https://github.com/nullbytes0/Nana-Remix",
@@ -15,130 +9,99 @@
       "INI": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
       "value": "ANYTHING" 
-  },
-  "api_id":{
-      "description":"get your api id from https://my.telegram.org",
-      "value":""
-  },
-  "api_hash":{
-      "description":"get your api hash from https://my.telegram.org",
-      "value":""
-      
-  },
-  "LOGGER":{
-      "description":"True if you want to log everything that happens in the userbot",
-      "value":""
-      
-  },
-  "DB_URI":{
-      "description":" the postgresql server url that contains username, host, port, password and database",
-      "value":""
-      
-  },
+      },
+    "BOT_TOKEN": {
+      "description": "The telegram bot token that you get from @BotFather",
+      "value": "1405603683:AAEnV8tydWvWC1gUH90dr76v4T0qvvu8_MU"
+    },
+    "ENV":{
+        "description":"False if you are not using Docker method",
+        "value":"true",
+        "required": false
+    },
+    "LOGGER":{
+        "description":"True if you want to log everything that happens in the userbot",
+        "value":"",
+        "required": false
+    },
+    "api_id":{
+        "description":"get your api id from https://my.telegram.org",
+        "value":"",
+    },
+    "api_hash":{
+        "description":"get your api hash from https://my.telegram.org",
+        "value":"true",
+    },
+    "DB_URI":{
+        "description":"the postgresql server url that contains username, host, port, password and database",
+        "value":"",
+        "required":false
+    },
   "lang_code":{
       "description":"your client's language code",
       "value":"",
-      "required":false
-      
-  },
-  "NANA_IMG":{
+      "required": false
+    },
+   "NANA_IMG":{
       "description":"an image url or file id supported by pyrogram bot",
       "value":"",
-      "required":false
+      "required": false
       
-  },
-  "AdminSettings":{
-      "description":"Add Sudo user ids here, you can separate each user id with a space",
-      "value":"",
-      "required":false
-      
-  },
-  "Command":{
-      "description":"a command prefix(s), you can separate each prefix with a space",
-      "value":"",
-      "required":false
-      
-  },
-  "REPOSITORY":{
-      "description":"url of the repository of your fork, leave it on Original Repository if you clone it without forking",
-      "value":"",
-      "required":false
-      
-  },
-      "REMINDER_UPDATE":{
-          "description":"Leave it on True if you want to receive updates from github",
-          "value":"",
-          "required":false
-          
-  },
-  "screenshotlayer_API":{
-      "description":"get an api key from ScreenshotLayer",
-      "value":"",
-      "required":false
-  },
-  "gdrive_credentials":{
-      "description":"paste in the content inside credentials json you get from google drive api, this is not required as if the bot will guide you how to setup after you host it",
-      "value":"",
-      "required":false
-  },
-  "sw_api":{
-      "description":"spamwatch api key, carefully read SpamWatchAPI",
-      "value":"",
-      "required":false
-  },
-  "lydia_api":{
-      "description":"coffeehouse api key for chatbot, get it now from Intellivoid",
-      "value":"",
-      "required":false
-  },
-  "remove_bg_api":{
-      "description":"Remove Background API key, get it from Remove.bg",
-      "value":"",
-      "required":false
-  },
-  "IBM_WATSON_CRED_URL":{
-      "description":"IBM Host URL",
-      "value":"",
-      "required":false
-  },
-  "IBM_WATSON_CRED_PASSWORD":{
-      "description":"IBM Host Password",
-      "value":"",
-      "required":false
-  },
-  "time_country":{
-      "description":"input your timezone from this List",
-      "value":"",
-      "required":false
-  },
-  "USERBOT_LOAD":{
-      "description":"Fill if you want to load up some modules for your userbot (separate with space)",
-      "value":"",
-      "required":false
-  },
-  "USERBOT_NOLOAD":{
-      "description":"Fill if you want to ignore some modules for your userbot (separate with space)",
-      "value":"",
-      "required":false
-  },
-  "ASSISTANT_LOAD":{
-      "description":"Fill if you want to load up some modules for your ASSISTANT (separate with space)",
-      "value":"",
-      "required":false
-  },
-  "ASSISTANT_NOLOAD":{
-      "description":"Fill if you want to ignore some modules for your ASSISTANT (separate with space)",
-      "value":"",
-      "required":false
-  },
-  "USERBOT_SESSION":{
-      "description":"Generate your session using strNana.py in the repository by running python3 strNana.py",
-      "value":"",
-  },
-  "PM_PERMIT":{
-      "description":"True or Leave the Field if you dont want the PM Gaurd on",
-      "value":"true",
-      "required":false
+   },
+   "AdminSettings":{
+         "description":"Add Sudo user ids here, you can separate each user id with a space",
+         "value":"",
+         "required": false
+     },
+    "Command": {
+      "description": "a command prefix(s), you can separate each prefix with a space",
+      "value": ""
+    },
+    "REPOSITORY": {
+      "description": "url of the repository of your fork, leave it on Original Repository if you clone it without forking",
+      "value":""
+    },
+    "REMINDER_UPDATE": {
+      "description": "Leave it on True if you want to receive updates from github",
+      "value": ""
+    },
+    "screenshotlayer_API": {
+      "description": "get an api key from ScreenshotLayer",
+      "value": ""
+    }, 
+    "OWNER_ID": {
+      "description": "The Telegram user ID (not username) of the owner of the bot",
+      "value": "994480185"
+    },
+    "DOWNLOAD_DIR": {
+      "description": "The path to the local folder where the downloads should be downloaded to",
+      "value": "/home/nullbytes0/mirror-bot/downloads",
+      "required": false
+    },
+    "DOWNLOAD_STATUS_UPDATE_INTERVAL": {
+      "description": "A short interval of time in seconds after which the Mirror progress message is updated. (I recommend to keep it 5 seconds at least)",
+      "value": "5",
+      "required": false
+    },
+    "AUTO_DELETE_MESSAGE_DURATION": {
+      "description": "Interval of time (in seconds), after which the bot deletes it's message (and command message) which is expected to be viewed instantly. Note: Set to -1 to never automatically delete messages",
+      "value": "10",
+      "required": false
+    },
+    "IS_TEAM_DRIVE": {
+      "description": "(Optional field) Set to True if GDRIVE_FOLDER_ID is from a Team Drive else False or Leave it empty.",
+      "value": "true",
+      "required": false
+    },
+    "INDEX_URL": {
+      "description": "(Optional field) Refer to https://github.com/maple3142/GDIndex/ The URL should not have any trailing '/'",
+      "value": "https://royal-darkness-cc6b.cloud-mirrors-link.workers.dev/",
+      "required": false
+    },
+    "USE_SERVICE_ACCOUNTS": {
+      "description": "(Optional field) (Leave empty if unsure) Whether to use service accounts or not. For this to work see Using service accounts section below.",
+      "value": "true",
+      "required": false
       }
     },
     "addons": [
