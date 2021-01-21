@@ -20,11 +20,7 @@
     "BOT_TOKEN": {
       "description": "The telegram bot token that you get from @BotFather",
       "value": "1405603683:AAEnV8tydWvWC1gUH90dr76v4T0qvvu8_MU"
-    },
-    "ENV":{
-        "description":"False if you are not using Docker method",
-        "value":"true",
-        "required": false
+
     },
     "LOGGER":{
         "description":"True if you want to log everything that happens in the userbot",
